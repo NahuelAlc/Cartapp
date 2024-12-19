@@ -14,7 +14,7 @@ app.use(express.json());
 // Configuración de conexión a la base de datos
 const dbConfig = {
   user: 'system',
-  password: 'techpunk',
+  password: '',
   connectString: 'localhost:1521/XE'
 };
 
